@@ -14,7 +14,7 @@ Find the source and target elements using their XPath or ID values.
 Call the FormDragAndDrop_Text() method, passing in the source and target elements as parameters.
 csharp
 
-Example code
+Example code 
 IWebDriver driver = new ChromeDriver();
 driver.Navigate().GoToUrl("https://example.com");
 
@@ -22,5 +22,6 @@ IWebElement source = driver.FindElement(By.Id("source"));
 IWebElement target = driver.FindElement(By.XPath("//div[@class='target']"));
 
 FormDragAndDrop_Text(driver, source, target);
+
 Contributing
 Contributions to this project are welcome. Please submit a pull request with any improvements or bug fixes.
