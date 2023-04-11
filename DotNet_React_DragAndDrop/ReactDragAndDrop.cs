@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 
-namespace ReactDropdown
+namespace ReactDragAndDrop
 {
     public class ReactDragAndDrop
     {
